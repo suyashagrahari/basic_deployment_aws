@@ -5,7 +5,7 @@ const app = express();
 
 // Define the '/' endpoint
 app.get("/", (req, res) => {
-  res.send("Hello World! how are you?");
+  res.send("Hello World!");
 });
 
 // Set the server to listen on a specific port
